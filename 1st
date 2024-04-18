@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+   
+</head>
+<body>
+    <h2>CONVERSE CHUCK TAYLOR ALL STAR LOW TOP</h2>
+    <img src="challenges.jpg" alt="shoes" width="250" height="300">
+    <p id="price">
+       <b> $65.00</b>
+    </p>
+    <p id="sh">
+       FREE SHIPPING
+    </p>
+    <P id="inform">
+        <b>Ready to dress up or down,these classic canvas chucks are an everyday wardrobe staple.</b>
+    </P>
+    <a id="m" href="">More Informition &rarr;</a> 
+    <h3>
+        Product Details
+    </h3>
+    <ul>
+        <li>Ligthtweight weight</li>
+        <li>light padded</li>
+        
+        <li>ankle patch</li>
+    </ul>
+    <button>ADD TO CART</button>
+</body>
+</html>
+
+
+
+
+
+//css for this html(paste this css in a html file and link with this html file for best results)
+
+body{
+   border-color: black;  
+   border-width: .25em;  
+   border-style: inset;  
+   margin: 20px;
+   height: 100%;
+   
+}
+h2{
+ text-align: center;
+background-color: grey;
+font-family: sans-serif;
+ 
+}
+#price{
+   font-size: large;
+   font-family: sans-serif;
+   
+}
+#sh{
+     color: gray;
+     font-family: sans-serif;
+     font-size: small;
+}
+#inform{
+   
+   font-style: normal;
+   font-family: sans-serif;
+   
+}
+li{
+   list-style-type: square;
+}
+button{
+   background-color: black;
+   color: aliceblue;
+}
+
+#m:hover{
+text-decoration: none;
+}
+button:hover{
+   background-color: aliceblue;
+   color: black;
+}
