@@ -37,7 +37,7 @@
 
 
 
-//css for this html(paste this css in a html file and link with this html file for best results)
+//css for this html(paste this css in a css file and link with this html file for best results)
 
 body{
    border-color: black;  
